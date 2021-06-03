@@ -1,0 +1,6 @@
+def BMI():
+    weight = float(input("Enter your weight\n"))
+    height = float(input("Enter your height\n"))
+    BMI = weight / (height**2)
+    print(f"YOUR BMI is :{BMI}")
+BMI()
